@@ -17,6 +17,7 @@ char	*strrchr(const char *s, int c);
 size_t	strlcat(char *dst, const char *src, size_t dstsize);
 char	*strnstr(const char *haystack, const char *needle, size_t len);
 char	*strjoin(char const *s1, char const *s2);
+char	*substr(char const *s, unsigned int start, size_t len);
 void *memcpy(void *dst, const void *src, size_t n);
 int memcmp(const void *s1, const void *s2, size_t n);
 void *memset(void *b, int c, size_t len);
