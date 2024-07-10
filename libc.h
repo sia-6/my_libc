@@ -9,6 +9,7 @@ int isprint(int c);
 int isascii(int c);
 int toupper(int c);
 int tolower(int c);
+void	*calloc(size_t count, size_t size);
 size_t strlen(const char *s);
 int	strncmp(const char *s1, const char *s2, size_t len);
 size_t	strlcpy(char *dst, const char *src, size_t dstsize);
@@ -23,7 +24,6 @@ int memcmp(const void *s1, const void *s2, size_t n);
 void *memset(void *b, int c, size_t len);
 void	*memmove(void *dst, const void *src, size_t len);
 void	*memchr(const void *s, int c, size_t n);
-void	*calloc(size_t count, size_t size);
 
 typedef struct s_list
 {
