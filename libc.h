@@ -2,6 +2,7 @@
 #include <stdio.h>
 
 int	atoi(const char *str);
+char	*itoa(int n);
 int isalpha(int c); 
 int isalnum(int c); 
 int isdigit(int c); 
